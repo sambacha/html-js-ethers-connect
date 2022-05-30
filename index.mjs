@@ -1,6 +1,6 @@
 // Use ES6 import in place of `require` to make it natively compatible with browser; no browserify needed
 // Just download the minified ethers.js file from here: https://cdn.ethers.io/lib/ethers-5.6.esm.min.js
-import { ethers } from "./ethers-5.6.esm.min.js";
+import { ethers } from "./ethers-5.6.esm.min.mjs";
 
 // Assign event handlers to buttons (in place of unfavorable inline JS script in HTML elements)
 // this still works even if you decide to use browserify eventually (and no need `modules.export`!)
